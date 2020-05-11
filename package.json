@@ -1,0 +1,19 @@
+{
+  "name": "stackjstut",
+  "version": "1.0.0",
+  "description": "Learn from freeCodeCamp data structure and algo JS tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigman8857/stackjstut.git"
+  },
+  "author": "Oh Sva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pigman8857/stackjstut/issues"
+  },
+  "homepage": "https://github.com/pigman8857/stackjstut#readme"
+}
