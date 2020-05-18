@@ -40,6 +40,19 @@ class Stack {
             return this.ele[this.top];
         }
     }
+
+    printStack() {
+        if (this.top == -1) {
+            console.log('Stack empty');
+            return;
+        }
+        else {
+            for (let i = 0; i <= this.top; i++) {
+                console.log(`${this.ele[i]} pushed into the stack`);
+            }
+            console.log(`Top is at ${this.ele[this.top]}`);
+        }
+    }
 }
 
 module.exports = Stack;
