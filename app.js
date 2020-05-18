@@ -1,0 +1,10 @@
+const Stack = require('./stack.js');
+const stack = new Stack(5);
+stack.push(2);
+stack.push(5);
+stack.push(7);
+stack.pop();
+stack.push(1);
+stack.pop();
+stack.pop();
+console.log(stack);
