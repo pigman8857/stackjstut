@@ -7,4 +7,5 @@ stack.pop();
 stack.push(1);
 stack.pop();
 stack.pop();
+stack.peek();
 console.log(stack);

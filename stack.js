@@ -29,6 +29,17 @@ class Stack {
             console.log('Stack empty');
         }
     }
+
+    peek() {
+        if (this.top == -1) {
+            console.log('Stack empty');
+            return -1;
+        }
+        else {
+            console.log(`${this.ele[this.top]}peek from stack`);
+            return this.ele[this.top];
+        }
+    }
 }
 
 module.exports = Stack;
